@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const trackRoutes = require('./routes/trackRoutes');
 const requireAuth = require('../middlewares/requireAuth');
 
 const Track = mongoose.model('Track');
