@@ -24,4 +24,4 @@ const trackSchema = new mongoose.Schema({
     locations: [pointSchema]
 });
 
-mongoose.Model('Track', trackSchema);
+mongoose.model('Track', trackSchema);
